@@ -1,1 +1,1 @@
-# Ubuntu with Node 10 and last version of Chromium
+# Ubuntu with Node 12 and last version of Chromium

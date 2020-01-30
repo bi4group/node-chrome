@@ -5,8 +5,8 @@ FROM ubuntu:latest
 RUN apt-get update --fix-missing && apt-get -y upgrade &&\
 apt-get install -y sudo curl wget unzip git python build-essential
 
-# Install node 10
-RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - &&\
+# Install node 12
+RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 
 # Install Chromium & Xvfb
